@@ -2,7 +2,7 @@ def main():
     t = int(input())
     for _ in range(t):
         n = int(input())
-        greater = 2*n
+        greater = 2 * n
         lower = 1
         l1 = []
         l2 = []
@@ -17,8 +17,7 @@ def main():
             lower += 1
 
         l2[1] = l2[-1]
-        l2[-1] = 2*n - 1
-
+        l2[-1] = 2 * n - 1
 
         print(*l1)
         print(*l2)
